@@ -1,0 +1,23 @@
+@use '../../assets/webColors' as *;
+.NavbarBG {
+  background-color: $main-green;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+
+  &__links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+
+    li > a:hover {
+      color: $gold;
+    }
+  }
+}
